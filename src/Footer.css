@@ -1,0 +1,5 @@
+@media all and (max-width: 375px){
+	.footer{
+		width: 100%!important;
+	}
+}

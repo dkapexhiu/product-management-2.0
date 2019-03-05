@@ -1,0 +1,14 @@
+@media all and (max-width: 375px){
+	#loggedin{
+		height: 530px!important;
+		width: 100%!important;
+	}
+	#login{
+		height: 530px!important;
+		width: 100%!important;
+	}
+	#loggedBtn{
+		height: 530px!important;
+		width: 100%!important;
+	}
+}

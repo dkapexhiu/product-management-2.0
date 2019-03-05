@@ -1,0 +1,6 @@
+@media all and (max-width: 375px){
+	#home{
+		height: 530px!important;
+		width: 100%!important;
+	}
+}

@@ -1,0 +1,6 @@
+@media all and (max-width: 375px){
+	.container{
+		height: fit-content!important;
+		width: fit-content!important;
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"products": {
+		"1": {
+			"id": 1,
+			"category": "Musical Instruments",
+			"price": "459.99",
+			"stocked": true,
+			"name": "Clarinet",
+			"date": "01-01-2000",
+			"quantity": "1",
+			"description":"This is a Clarinet.",
+			"img": "https://firebasestorage.googleapis.com/v0/b/product-management-21.appspot.com/o/products%2Fclarinet.jpg?alt=media&token=acd373a8-39b5-4733-8976-20c9a0cbf354"
+		},
+		"2": {
+			"id": 2,
+			"category": "Musical Instruments",
+			"price": "5,000",
+			"stocked": true,
+			"name": "Harpsichord",
+			"date": "01-01-2000",
+			"quantity": "1",
+			"description": "This is a Harpsichord.",
+			"img": "https://firebasestorage.googleapis.com/v0/b/product-management-21.appspot.com/o/products%2Fharpsichord.jpg?alt=media&token=87c85bc2-47d3-481d-9008-0fccc46330e2"
+		},
+		"3": {
+			"id": 3,
+			"category": "Musical Instruments",
+			"price": "11,000",
+			"stocked": false,
+			"name": "Fortepiano",
+			"date": "01-01-2000",
+			"quantity": "0",
+			"description": "This is a Fortepiano.",
+			"img": "https://firebasestorage.googleapis.com/v0/b/product-management-21.appspot.com/o/products%2Ffortepiano.jpg?alt=media&token=bb800b3c-3e9d-4771-ab73-dae06a4b2e0a"
+		},
+		"4": {
+			"id": 4,
+			"category": "Furniture",
+			"price": "799",
+			"stocked": true,
+			"name": "Chaise Lounge",
+			"date": "01-01-2000",
+			"quantity": "1",
+			"description": "This is a Chaise Lounge.",
+			"img": "https://firebasestorage.googleapis.com/v0/b/product-management-21.appspot.com/o/products%2Fchaise-longue.jpg?alt=media&token=aa0c6277-0758-4a5a-9765-aa9b871c360e"
+		},
+		"5": {
+			"id": 5,
+			"category": "Furniture",
+			"price": "1,300",
+			"stocked": false,
+			"name": "Dining Table",
+			"date": "01-01-2000",
+			"quantity": "0",
+			"description": "This is a Dining Table.",
+			"img": "https://firebasestorage.googleapis.com/v0/b/product-management-21.appspot.com/o/products%2Fchaise-longue.jpg?alt=media&token=aa0c6277-0758-4a5a-9765-aa9b871c360e"
+		},
+		"6": {
+			"id": 6,
+			"category": "Furniture",
+			"price": "100",
+			"stocked": true,
+			"name": "Bean Bag",
+			"date": "01-01-2000",
+			"quantity": "1",
+			"description": "This is a Bean Bag.",
+			"img": "https://firebasestorage.googleapis.com/v0/b/product-management-21.appspot.com/o/products%2Fbean-bag.jpeg?alt=media&token=fc7a81c9-dabf-4aff-9ffc-ca1e33966f8f"
+		}
+	}
+}

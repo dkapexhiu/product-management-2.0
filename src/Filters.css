@@ -1,0 +1,19 @@
+.checkbox {
+    color: white;
+    display: inline-flex;
+}
+
+#search {
+	margin-top: 6px;
+    width: 6%;
+}
+
+#stock {
+	width: 100%;
+}
+
+#checkFilter {
+	padding-top: 10px;
+    margin-top: 12px;
+    margin-right: 10px;
+}

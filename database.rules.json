@@ -1,0 +1,6 @@
+{
+  "rules": {
+    ".read":  "auth.email == 'daniel.kapexhiu@gmail.com'",
+    ".write": "auth.email == 'daniel.kapexhiu@gmail.com'"
+  }
+}

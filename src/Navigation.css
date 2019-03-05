@@ -1,0 +1,31 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(47, 180, 253);
+}
+
+li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.login {
+    float: right;
+    background-color:rgb(47, 180, 253);
+}
+
+@media all and (max-width: 375px){
+    ul {
+        width: 100%!important;
+        margin-left: 0!important;
+    }
+}

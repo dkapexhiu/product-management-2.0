@@ -1,0 +1,11 @@
+.dev {
+    color: white;
+    text-align: center;
+}
+
+@media all and (max-width: 375px){
+	#contact{
+		height: 530px!important;
+		width: 100%!important;
+	}
+}

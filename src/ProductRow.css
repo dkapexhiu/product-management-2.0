@@ -1,0 +1,14 @@
+tr {
+    color: white;
+}
+
+label{
+	width: 100%;
+    padding-top: 6px;
+    padding-right: 10%;
+}
+
+#image{
+	height: 50px;
+	width: 50px;
+}
