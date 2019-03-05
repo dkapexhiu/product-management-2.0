@@ -1,4 +1,6 @@
-﻿This is a product management app created with React JS and Firebase for the management of products everywhere and when needed. 
+**Product Management 2.0**
+
+This is a product management app created with React JS and Firebase for the management of products everywhere and when needed. 
 
 Usage:
 
