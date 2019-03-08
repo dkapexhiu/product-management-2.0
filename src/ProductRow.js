@@ -135,7 +135,9 @@ toggleAddForm = () => {
 }
 
 destroy = () => {
-  this.props.onDestroy(this.props.product.id);
+  const { id } = this.props.product;
+  const db = FB.database();
+  db.ref("products/").child(id).remove();
 }
 
 
