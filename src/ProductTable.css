@@ -1,0 +1,5 @@
+@media screen and (max-width: 40em){
+	.responsiveTable table, .responsiveTable thead, .responsiveTable tbody, .responsiveTable th, .responsiveTable td, .responsiveTable tr{
+		display: inherit!important;
+	}
+}

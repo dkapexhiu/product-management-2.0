@@ -1,6 +1,9 @@
 import React from 'react';
 import ProductRow from './ProductRow.js';
 import SortableColumnHeader from './SortableColumnHeader.js';
+import { Table, Thead, Tbody, Tr } from 'react-super-responsive-table';
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
+import './ProductTable.css';
 
 class ProductTable extends React.Component {
   constructor(props) {
@@ -55,9 +58,9 @@ class ProductTable extends React.Component {
 
     return (
       <div>
-        <table className="table">
-          <thead>
-            <tr>
+        <Table className="table">
+          <Thead>
+            <Tr>
               <SortableColumnHeader
                 onSort={this.handleSort}
                 currentSort={this.state.sort}
@@ -98,10 +101,10 @@ class ProductTable extends React.Component {
                 currentSort={this.state.sort}
                 column="image"
               ></SortableColumnHeader>
-            </tr>
-          </thead>
-          <tbody>{rows}</tbody>
-        </table>
+            </Tr>
+          </Thead>
+          <Tbody>{rows}</Tbody>
+        </Table>
       </div>
     );
   }

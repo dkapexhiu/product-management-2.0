@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 import Footer from './Footer';
 
 const App = () => (
-  <div>
+  <div style={{position:'relative'}} className="app">
     <Navigation />
     <Footer />
   </div>

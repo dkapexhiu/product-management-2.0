@@ -5,7 +5,7 @@ import './Footer.css';
 class FooterPage extends React.Component {
 render() {
 return (
-<Footer className="font-small pt-4 mt-4 footer" style={{backgroundColor:'#2fb4fd', color:'white', marginBottom:'-40px', marginTop:'0'}}>
+<Footer className="font-small pt-4 mt-4 footer" style={{backgroundColor:'#2fb4fd', color:'white', marginTop:'0'}}>
   <Container fluid className="text-center text-md-center">
     <Row>
       <Col md="12" sm="12">

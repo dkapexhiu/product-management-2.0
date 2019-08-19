@@ -3,6 +3,8 @@ import FB from './firebase.config';
 import './ProductRow.css';
 import firebase from "firebase";
 import FileUploader from "react-firebase-file-uploader";
+import { Tr, Td } from 'react-super-responsive-table'
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
 
 class ProductRow extends React.Component {
   constructor(props) {
@@ -191,18 +193,18 @@ renderForm = () => (
 );
 
 renderItem = () => (
-  <tr>
-    <td>{this.props.product.id}</td>
-    <td>{this.props.product.name}</td>
-    <td>${this.props.product.price}</td>
-    <td>{this.props.product.category}</td>
-    <td>{this.props.product.date}</td>
-    <td>{this.props.product.quantity}</td>
-    <td>{this.props.product.description}</td>
-    <td><img src={this.props.product.imageURL} id="image" alt="" /></td>
-    <td><button onClick={this.destroy} className="btn btn-primary">Delete</button></td>
-    <td><button onClick={this.toggleState} className="btn btn-primary">Edit</button></td>
-  </tr>
+  <Tr>
+    <Td>{this.props.product.id}</Td>
+    <Td>{this.props.product.name}</Td>
+    <Td>${this.props.product.price}</Td>
+    <Td>{this.props.product.category}</Td>
+    <Td>{this.props.product.date}</Td>
+    <Td>{this.props.product.quantity}</Td>
+    <Td>{this.props.product.description}</Td>
+    <Td><img src={this.props.product.imageURL} id="image" alt="" /></Td>
+    <Td><button onClick={this.destroy} className="btn btn-primary">Delete</button></Td>
+    <Td><button onClick={this.toggleState} className="btn btn-primary">Edit</button></Td>
+  </Tr>
 );
 
 render() {
